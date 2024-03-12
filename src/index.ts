@@ -13,7 +13,6 @@ const trainingDataset = dataset.slice(0, 20);
 const testDataset = dataset.slice(20, 30);
 
 net.train(trainingDataset);
-// net.train(dataset);
 
 // Show net model structure
 // console.log(net.toJSON());
